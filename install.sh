@@ -6,11 +6,13 @@
 #openssl version
 #stunnel -version
 #download 
+#Install Yum
+yum install wget -y
 wget https://www.stunnel.org/downloads/stunnel-5.36.tar.gz --no-check-certificate
 wget https://github.com/z3APA3A/3proxy/archive/3proxy-0.8.7.tar.gz
 tar zxvf stunnel-5.36.tar.gz
 tar zxvf 3proxy-0.8.7.tar.gz
-yum install openssl openssl-devel
+yum install openssl openssl-devel -y
 #yum install openssl*
 
 
